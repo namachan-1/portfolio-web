@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+{% load static %}
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- CSS -->
+    <link href="{% static 'css/styles.css' %}" rel="stylesheet" type="text/css">
+
+    <title>Nathaniel's Web Portfolio</title>
+  </head>
+  <body>
+    {% block content %}
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+    </style>
+    
+    <div class="portfolio-container">
+      <div class="bar">
+      </div>
+
+      <div class="intro-title">
+        <h1>Hi, I'm Nathaniel</h1>
+      </div>
+
+      <div class="intro-about">
+        <h2>About Me</h2>
+        <p>I am a Software Engineer focused on blah blah blah blah awngoiawenoigwnaoignowaegnawoeignwoegi</p>
+        <button>See Resume</button>
+      </div>
+
+      <div class="intro-picture">
+        <img src="{% static 'images/portfolio.jpg' %}">
+      </div>
+
+      <div class="skill-title">
+          <h2>Skills</h2>
+      </div>
+
+      <div class="skills-container">
+        <div class="skill-languages">
+          <h3>Languages</h3>
+          <ul>
+              <li>Python</li>
+              <li>Javascript</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+          </ul>
+        </div>
+        <div class="skill-framework">
+          <h3>Frameworks</h3>
+          <ul>
+              <li>Django</li>
+              <li></li>
+              <li></li>
+          </ul>
+        </div>
+        <div class="skill-soft">
+          <h3>Soft Skills</h3>
+          <ul>
+              <li>Leadership</li>
+              <li>Problem-Solving</li>
+              <li>Collaboration</li>
+              <li></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="project-container">
+        <h3>Personal Projects</h3>
+      </div>
+
+      <div class="contact-container">
+        <h3>Contact</h3>
+      </div>
+    </div>
+    {% endblock %}
+
+  </body>
+</html>
