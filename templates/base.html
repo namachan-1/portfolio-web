@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link href="{% static 'css/styles.css' %}" rel="stylesheet" type="text/css">
 
     <title>Nathaniel's Web Portfolio</title>
@@ -22,62 +23,131 @@
       <div class="bar">
       </div>
 
-      <div class="intro-title">
-        <h1>Hi, I'm Nathaniel</h1>
-      </div>
-
-      <div class="intro-about">
-        <h2>About Me</h2>
-        <p>I am a Software Engineer focused on blah blah blah blah awngoiawenoigwnaoignowaegnawoeignwoegi</p>
-        <button>See Resume</button>
-      </div>
-
-      <div class="intro-picture">
-        <img src="{% static 'images/portfolio.jpg' %}">
-      </div>
-
-      <div class="skill-title">
-          <h2>Skills</h2>
-      </div>
-
-      <div class="skills-container">
-        <div class="skill-languages">
-          <h3>Languages</h3>
-          <ul>
-              <li>Python</li>
-              <li>Javascript</li>
-              <li>HTML5</li>
-              <li>CSS3</li>
-          </ul>
+      <div class="container">
+        <div class="row">
+          <div class="col-">
+              <div class="intro-title">
+                <h1>Hi, I'm Nathaniel</h1>
+              </div>
+          </div>
         </div>
-        <div class="skill-framework">
-          <h3>Frameworks</h3>
-          <ul>
-              <li>Django</li>
-              <li></li>
-              <li></li>
-          </ul>
-        </div>
-        <div class="skill-soft">
-          <h3>Soft Skills</h3>
-          <ul>
-              <li>Leadership</li>
-              <li>Problem-Solving</li>
-              <li>Collaboration</li>
-              <li></li>
-          </ul>
-        </div>
-      </div>
 
-      <div class="project-container">
-        <h3>Personal Projects</h3>
-      </div>
+        <div class="row">
+          <div class="col-md">
+            <div class="intro-about">
+              <h2>About Me</h2>
+              <p>
+              I am a New Grad Software Engineer with web development experience through self-initiated projects. 
+              I am a motivated learner who is seeking opportunities to solve problems and create meaningful applications/services.
+              </p>
+              <button>See Resume</button>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="intro-picture">
+              <img src="{% static 'images/portfolio.jpg' %}">
+            </div>
+          </div>
+        </div>
 
-      <div class="contact-container">
-        <h3>Contact</h3>
+        <div class="row">
+          <div class="col-">            
+            <div class="skill-title">
+                <h2>Skills</h2>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <div class="skill-languages">
+              <h3>Languages</h3>
+              <ul>
+                  <li>Python</li>
+                  <li>Javascript</li>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>C</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="skill-framework">
+              <h3>Frameworks</h3>
+              <ul>
+                  <li>Django</li>
+                  <li>React</li>
+                  <li></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm">
+            <div class="skill-soft">
+              <h3>Soft Skills</h3>
+              <ul>
+                  <li>Leadership</li>
+                  <li>Problem-Solving</li>
+                  <li>Collaboration</li>
+                  <li></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+         <div class="row">
+          <div class="col-">
+            <div class="project-container">
+              <h3>Personal Projects</h3>
+            </div>
+          </div>
+
+        <div class="row">
+          <div class="col-">
+            <a href="" class="card">
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="..." alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+           <div class="col-">
+            <a href="" class="card">
+               <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              </a>
+            </div>
+          </div>
+           <div class="col-">
+            <a href="" class="card">
+              <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-">
+            <div class="contact-container">
+              <h3>Contact</h3>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     {% endblock %}
 
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </body>
 </html>
