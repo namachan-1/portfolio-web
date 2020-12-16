@@ -39,7 +39,21 @@
           I am a motivated learner who is seeking professional opportunities to solve problems 
           and create meaningful applications/services.
           </p>
-          <a class="button" href="#"><span>My Resume</span></a>
+          <section class="cd-section">
+          <!-- section content here -->
+            <div class="cd-modal-action">
+                <a href="#0" class="btn" data-type="modal-trigger">My Resume</a>
+                <span class="cd-modal-bg"></span>
+            </div>
+
+            <div class="cd-modal">
+                <div class="cd-modal-content">
+                  <a href="images/Resume_2020.pdf"><a>
+                </div>
+            </div>
+
+            <a href="#0" class="cd-modal-close">Close</a>
+          </section>
         </div>
         <div class="intro-picture">
           <img src="{% static 'images/portfolio.jpg' %}">
@@ -84,6 +98,7 @@
       <div class="project-container">
         <div class="project-title">
           <h3>Projects</h3>
+          
         </div>
 
     
@@ -93,6 +108,7 @@
       </div>
   </div>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
   <script src="{% static "js/app.js" %}" type="text/javascript"></script>
   <script src="{% static "js/card.js" %}" type="text/javascript"></script>
