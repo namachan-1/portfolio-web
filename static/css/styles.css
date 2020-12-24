@@ -288,6 +288,16 @@ iframe {
 /* Cool Animation */
 
 /* Skills Styles */
+.skill {
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 2px;
+    border-radius: 15px;
+    background-color: rgb(151, 211, 203);
+    padding-bottom: 50px;
+    padding-top: 10px;
+}
+
 .skill-title {
     padding-top: 100px;
     font-family: 'Lato', sans-serif;
