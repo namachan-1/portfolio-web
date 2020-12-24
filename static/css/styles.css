@@ -10,10 +10,26 @@
     justify-content: center;
     font-family: 'Lato', sans-serif;
     padding-top: 500px;
-    padding-bottom: 600px;
+    padding-bottom: 500px;
     font-size: 70px;
     background-color: black;
     color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.intro-scroll {
+    background-color: black;
+    padding-bottom: 100px;
+}
+
+.intro-scroll svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    width: 50px;
+    height: 50px;
 }
 
 .ml12 {
@@ -46,8 +62,8 @@
 
 .intro-text {
     grid-area: intro-text;
-    margin-left: 100px;
     padding-top: 25px;
+    padding-left: 100px;
 }
 
 .intro-picture {
@@ -92,17 +108,17 @@
 
 /* Resume Button Styles */
 .close {
-color: black;
-float: right;
-font-size: 28px;
-font-weight: bold;
+    color: black;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-color: black;
-text-decoration: none;
-cursor: pointer;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .btn {
@@ -122,22 +138,23 @@ cursor: pointer;
 /*button:before (attr data-hover)*/
 .btn:hover:before{opacity: 1; transform: translate(0,0);}
 .btn:before{
-  content: attr(data-hover);
-  position: absolute;
-  left: 0;
-  width: 100%;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 800;
-  font-size: 20px;;
-  opacity: 0;
-  transform: translate(-100%,0);
-  transition: all .3s ease-in-out;
+    content: attr(data-hover);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 20px;;
+    opacity: 0;
+    transform: translate(-100%,0);
+    transition: all .3s ease-in-out;
 }
-  /*button div (button text before hover)*/
-  .btn:hover div{opacity: 0; transform: translate(100%,0)}
-  .btn div{
+
+/*button div (button text before hover)*/
+.btn:hover div{opacity: 0; transform: translate(100%,0)}
+.btn div{
     text-transform: uppercase;
     letter-spacing: 3px;
     font-weight: 800;
@@ -228,7 +245,6 @@ cursor: pointer;
     position: relative;
 
     margin: auto;
-    overflow: auto;
     animation: fade .5s ease-out 1.3s both;
 }
 
@@ -263,31 +279,40 @@ cursor: pointer;
     background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDAwMDAwIiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHdpZHRoPSIyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4gICAgPHBhdGggZD0iTTE5IDYuNDFMMTcuNTkgNSAxMiAxMC41OSA2LjQxIDUgNSA2LjQxIDEwLjU5IDEyIDUgMTcuNTkgNi40MSAxOSAxMiAxMy40MSAxNy41OSAxOSAxOSAxNy41OSAxMy40MSAxMnoiLz4gICAgPHBhdGggZD0iTTAgMGgyNHYyNEgweiIgZmlsbD0ibm9uZSIvPjwvc3ZnPg==);
 }
 
+iframe {
+    width: 1050px; 
+    height: 1200px;
+}
+
+
 /* Cool Animation */
 
 /* Skills Styles */
 .skill-title {
+    padding-top: 100px;
     font-family: 'Lato', sans-serif;
     font-size: 50px;
     display: flex;
     justify-content: center;
+    padding-bottom: 50px;
 }
 
 .skills-container {
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .skills-container h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
 }
 
 .skills-container li {
     font-family: 'Lato', sans-serif;
     list-style-type: none;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 /* Project Styles */
@@ -331,7 +356,7 @@ cursor: pointer;
 }
 
 .card--5 .card__img, .card--5 .card__img--hover {
-    background-image: url('https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?cs=srgb&dl=pexels-markus-spiske-1089438.jpg&fm=jpg');
+    background-image: url('https://images.pexels.com/photos/33041/antelope-canyon-lower-canyon-arizona.jpg?cs=srgb&dl=pexels-paul-ijsendoorn-33041.jpg&fm=jpg');
 }
 
 .card--6 .card__img, .card--6 .card__img--hover {
@@ -446,4 +471,162 @@ cursor: pointer;
     display: flex;
     justify-content: center;
     font-size: 70px;
+    padding-bottom: 15px;
+}
+
+svg {
+    width: 40px;
+    height: 40px;
+    color: black;
+    margin-right: 10px;
+}
+
+svg:visited svg:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.svg-links {
+    display: flex; 
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.form-group label {
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+}
+
+.form-group input {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 400px;
+    height: 35px;
+
+}
+
+.form-group textarea {
+    font-family: 'Lato', sans-serif;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 800px;
+    height: 400px;
+
+}
+
+.form-group {
+    padding-top: 50px;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.form-control {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    background-color: white;
+    border: 2px solid #333;
+    letter-spacing: 4px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.contact-form-btn {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1600px) {
+    .intro-title {
+        font-size: 55px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .intro-title {
+        font-size: 45px;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+    .intro-title {
+        font-size: 30px;
+        padding-top: 300px;
+        padding-bottom: 300px;
+    }
+
+    .intro-scroll svg {
+        display: none;
+    }
+
+    .intro-text h2 {
+        font-size: 40px;
+    }
+
+    .intro-text p {
+        font-size: 20px;
+    }
+
+    .intro-picture img {
+        width: 300px;
+        height: 325px;
+    }
+
+    iframe {
+        width: 600px;
+        height: 800px;
+    }
+
+    .skill-title h2 {
+        font-size: 40px;
+    }
+
+    .skills-container h3 {
+        font-size: 20px;
+    }
+
+    .skills-container li {
+        font-size: 15px;
+    }
+
+    .project-title h3 {
+        font-size: 30px;
+    }
+
+    .contact-container h3 {
+        font-size: 30px;
+    }
+
+    svg {
+        width: 30px;
+        height: 30px;
+    }
+
+    .form-group label {
+        font-size: 15px;
+    }
+
+    .form-group input {
+        font-size: 15px;
+        width: 200px;
+        height: 30px;
+    }
+
+    .form-group textarea {
+        width: 400px;
+        height: 200px;
+    }
 }
