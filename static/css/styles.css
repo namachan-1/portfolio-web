@@ -2139,7 +2139,7 @@ textarea {
         }
 
         .page__container {
-            padding-right: 40px;
+            padding-right: 60px;
         }
 
         iframe {
@@ -2166,7 +2166,7 @@ textarea {
         .skills-container h3{
             display: flex;
             justify-content: center;
-            padding-right: 60px;
+            padding-right: 150px;
         }
 
         .project-container span {
