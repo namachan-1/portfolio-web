@@ -2134,7 +2134,7 @@ textarea {
         }
 
         .intro-text {
-            padding-right: 50px;
+            padding-right: 70px;
             text-align: center;
         }
 
@@ -2144,14 +2144,14 @@ textarea {
         }
 
         .intro-picture {
-            padding-left: 140px;
+            padding-left: 100px;
             width: 40px;
             height: 40px;
         }
 
         .skills-container {
             flex-direction: column;
-            padding-left: 100px;
+            padding-left: 130px;
         }
 
         .skills-soft li{
