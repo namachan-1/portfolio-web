@@ -2120,13 +2120,13 @@ textarea {
         height: 200px;
     }
 
-    @media only screen (max-width: 1170px) {
+    @media only screen and (max-width: 500px) {
         .intro-title {
             padding-top: 50px;
         }
 
         .ml12 {
-            font-size: 15px;
+            font-size: 10px;
         }
 
         div {
