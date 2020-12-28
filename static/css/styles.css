@@ -2160,6 +2160,10 @@ textarea {
             padding-right: 150px;
         }
 
+        .skill-soft li{
+            text-align: center;
+        }
+
         .project-container span {
             display: none;
         }
