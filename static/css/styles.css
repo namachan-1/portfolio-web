@@ -2138,10 +2138,6 @@ textarea {
             text-align: center;
         }
 
-        .page__container {
-            padding-right: 400px;
-        }
-
         iframe {
             width: 300px;
             height: 400px;
@@ -2153,7 +2149,7 @@ textarea {
             height: 40px;
         }
 
-        .skills-container {
+        .skills-container li {
             flex-direction: column;
             padding-left: 175px;
         }
