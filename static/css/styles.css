@@ -2138,6 +2138,10 @@ textarea {
             text-align: center;
         }
 
+        .page__container a {
+            margin-right: 30px;
+        }
+
         iframe {
             width: 300px;
             height: 400px;
@@ -2162,6 +2166,7 @@ textarea {
 
         .skill-soft li{
             text-align: center;
+            margin-right: 50px;
         }
 
         .project-container span {
