@@ -2120,13 +2120,17 @@ textarea {
         height: 200px;
     }
 
-    @media only screen and (min-device-height: 360px) and (min-device-width: 760px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 4){
+    @media only screen (max-width: 1170px) {
         .intro-title {
             padding-top: 50px;
         }
 
         .ml12 {
             font-size: 15px;
+        }
+
+        div {
+            flex-basis: 33%;
         }
     }
 }
