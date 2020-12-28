@@ -2149,7 +2149,7 @@ textarea {
             height: 40px;
         }
 
-        .skills-container li {
+        .skills-container {
             flex-direction: column;
             padding-left: 175px;
         }
