@@ -1,0 +1,1 @@
+web: gunicorn ncweb_portfolio.wsgi
