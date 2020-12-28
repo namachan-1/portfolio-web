@@ -6,6 +6,10 @@
 
 html, body {
     max-width: 100%;
+    width: 105%;
+    max-width:1920px;
+    min-width:480px;
+    overflow: hidden;
     overflow-x: hidden;
 }
 
