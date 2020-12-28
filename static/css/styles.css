@@ -2138,8 +2138,8 @@ textarea {
             text-align: center;
         }
 
-        .page__container a {
-            padding-right: 15px;
+        .page__container {
+            padding-right: 25px;
         }
 
         iframe {
@@ -2148,7 +2148,7 @@ textarea {
         }
 
         .intro-picture {
-            padding-left: 85px;
+            padding-left: 50px;
             width: 40px;
             height: 40px;
         }
