@@ -2128,6 +2128,12 @@ textarea {
             font-size: 25px;
         }
 
+        .intro-about {
+            padding-right: 10px;
+            display: flex;
+            flex-direction: column;
+        }
+
         .intro-text {
             text-align: center;
         }
@@ -2140,7 +2146,7 @@ textarea {
 
         .skills-container {
             flex-direction: column;
-            padding-left: 200px;
+            padding-left: 165px;
         }
 
         .project-container span {
@@ -2148,8 +2154,8 @@ textarea {
         }
 
         .form-group textarea {
-            width: 600px;
-            height: 300px;
+            width: 400px;
+            height: 200px;
         }
     }
 }
