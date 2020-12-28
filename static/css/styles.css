@@ -2134,7 +2134,7 @@ textarea {
         }
 
         .intro-text {
-            padding-right: 70px;
+            padding-right: 75px;
             text-align: center;
         }
 
@@ -2144,22 +2144,23 @@ textarea {
         }
 
         .intro-picture {
-            padding-left: 100px;
+            padding-left: 75px;
             width: 40px;
             height: 40px;
         }
 
         .skills-container {
             flex-direction: column;
-            padding-left: 130px;
+            padding-left: 150px;
         }
 
-        .skills-soft li{
+        .skill-soft li{
             text-align: center; 
         }
 
         .skills-container h3{
             text-align: center; 
+            padding-right: 50px;
         }
 
         .project-container span {
