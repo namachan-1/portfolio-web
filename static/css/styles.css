@@ -2154,6 +2154,14 @@ textarea {
             padding-left: 165px;
         }
 
+        .skills-soft li{
+            text-align: center; 
+        }
+
+        .skills-container h3{
+            text-align: center; 
+        }
+
         .project-container span {
             display: none;
         }
